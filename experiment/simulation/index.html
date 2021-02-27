@@ -1,75 +1,13 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
-    </head>
-    <title>
-        Vlab experiment Read CSV
-    </title>
-    <body>
-        
-        <div>
+<head>
+	<!-- Add CSS at the head of HTML file -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+		<!-- Your code goes here-->
 
-        <br>
-        <!--h1 style="margin-left:40px;">Vlab experiment Read CSV</h1-->
-        <img src="./images/Amritalogo.png" alt="vlab logo" style="width:100px;height:30px; margin-left: 10px;"/>
-        <img src="./images/vlablogo2.jpg" alt="vlab logo" style="width:70px;height:35px;">
-
-        <br>
-        <br>
-
-        <div>
-            <form>
-
-                    <div>
-
-                        <input id="fastafile"  type="file" style="margin-left: 10px" name ="fasta"/> 
-
-                        <button class="btn btn-success" id="csvload" onclick="LoadFile()" type="button" style="width: 100px">Run</button>
-                        
-                        <a href="./sequence.fasta" download="Samplefile.fasta" > <button type="button">Sample File </button> </a> 
-
-                        <br>
-                        <br>
-                        
-                        <output id="csvout">
-                            
-                        </output>
-
-                    </div>
-
-            </form>
-        </div>
-        </div>
-
-        <script>
-
-            var fileInput = document.getElementById("fastafile");
-
-            function LoadFile(){
-
-                var readertwo = new FileReader();
-                readertwo.readAsText(fileInput.files[0]); 
-                
-                readertwo.onload =function(){
-                    document.getElementById("csvout").innerHTML = readertwo.result;
-                    
-                };
-                
-                reader.onerror = function() {
-                    console.log(reader.error);
-                };  
-   
-            };
-
-            //fileInput.addEventListener('change', LoadFile);
-
-            function Runcsv(){
-                
-
-            };
-
-        </script>
-
-    </body>
+	<!-- Add JS at the bottom of HTML file --> 
+        <script src="./js/main.js"></script>
+</body>
 </html>
