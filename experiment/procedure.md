@@ -9,8 +9,8 @@ To install R on Macintosh or computer running Linux chose specific R installer h
 After completing installation, check the R icon on the desktop.
 Or else From Start button, chose All programs and start R from the menu bar.
 The R console will pop-up in the user computer interface.
-R has some standard packages installed, moreover additional R packages such as �rmeta� package can also be installed by the user-end.
- �Install package(s)� needed by the user from the �Packages� menu at the top of the R console.
+R has some standard packages installed, moreover additional R packages such as `rmeta` package can also be installed by the user-end.
+ `Install package(s)` needed by the user from the `Packages` menu at the top of the R console.
 Bioconductor packages, additional R packages for bioinformatics, can be installed from http://bioconductor.org/biocLite.R
  
 
@@ -45,7 +45,7 @@ For table variable, first  create a vector variable mynames containing the name,
                    Ann Jim Joe John Mary Simon Sinead
                     1 1 1 2 2 1 1
 
-User can store the table variable produced by the function table(), and call the stored table �mytable�, by following the command > mytable <- table(mynames)
+User can store the table variable produced by the function table(), and call the stored table `mytable`, by following the command > mytable <- table(mynames)
 Using the attributes() function, user can ?nd out the names of the named elements in a list.
              > attributes(mylist)
               $names
@@ -57,7 +57,7 @@ Arguments, which are input variables can be provided to carry out mathematical o
 help() function will provide the user  information about the function to be calculated.
             > help.search("deviation")
 
-function sd() in the �stats� package, which available with R installation, calculates  the standard deviation.
+function sd() in the `stats` package, which available with R installation, calculates  the standard deviation.
 RSiteSearch()function provide the basic information of all the functions described on the R website.
 To calculate the average of myvector, follow > mean(myvector)
 Uisng the basic knowledge on R programming, user can create functions for calculating complex mathematical operations also.
@@ -80,4 +80,4 @@ Follow the code in the command window:
 
  
 
-Description: The common functions, �read.csv� and �write.csv�. are using in R programing for reading and writing coma separated files. Here, we are also using these functions for reading and writing our sequence files. This is not a systematic way of accessing sequence file like FASTA and genbank, in R programing. Using the read.csv function, user can read the sequence data in a file and assign to a variable named �dnaseq�. With the function write.csv, user can write a sequence data into a sequence file.
+Description: The common functions, `read.csv` and `write.csv`. are using in R programing for reading and writing coma separated files. Here, we are also using these functions for reading and writing our sequence files. This is not a systematic way of accessing sequence file like FASTA and genbank, in R programing. Using the read.csv function, user can read the sequence data in a file and assign to a variable named `dnaseq`. With the function write.csv, user can write a sequence data into a sequence file.
