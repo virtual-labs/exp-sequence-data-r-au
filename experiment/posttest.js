@@ -89,77 +89,25 @@
 
 
     const myQuestions = [{
-            question: "1. Which of the following is a principal function for reading data in saved workspaces of R console ?", ///// Write the question inside double quotes
+            question: "1.This is a sample question:", ///// Write the question inside double quotes
             answers: {
-                a: "readLines", ///// Write the option 1 inside double quotes
-                b: "read.table", ///// Write the option 2 inside double quotes
-                c: "dput", ///// Write the option 2 inside double quotes
-                d: "load", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
-        },
-
-    
-{
-            question: "2. Which of the following is a wrong statement about R programming ?", ///// Write the question inside double quotes
-            answers: {
-                a: "It is easy to run R program on modern tablets, phones, PDAs, and game consoles.", ///// Write the option 1 inside double quotes
-                b: "R program has a number of packages.", ///// Write the option 2 inside double quotes
-                c: "Syntax in R is very similar to S", ///// Write the option 2 inside double quotes
-                d: "R runs only on Windows computing platform and operating system", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
-        },
-                         
-                         
-                         {
-            question: "3.Which is used to perform Statistical analysis in R language ? ", ///// Write the question inside double quotes
-            answers: {
-                a: "RStudio", ///// Write the option 1 inside double quotes
-                b: "Studio", ///// Write the option 2 inside double quotes
-                c: "Heck", ///// Write the option 2 inside double quotes
-                d: "KStudio", ///// Write the option 2 inside double quotes
+                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
+                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    
-                       {
-            question: "4.R language has similarity with which of the following programming language?  ", ///// Write the question inside double quotes
-            answers: {
-                a: "C", ///// Write the option 1 inside double quotes
-                b: "Python", ///// Write the option 2 inside double quotes
-                c: "MATLAB", ///// Write the option 2 inside double quotes
-                d: "SAS", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-                         
-                         
-                         {
-            question: "5.R functionality is divided into a number of ? ", ///// Write the question inside double quotes
-            answers: {
-                a: "Functions", ///// Write the option 1 inside double quotes
-                b: "Packages", ///// Write the option 2 inside double quotes
-                c: "Matrices", ///// Write the option 2 inside double quotes
-                d: "vectors", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-                         
-           {
-            question: "6.R files has an extension of", ///// Write the question inside double quotes
-            answers: {
-                a: ".S", ///// Write the option 1 inside double quotes
-                b: ".m ", ///// Write the option 2 inside double quotes
-                c: ".txt", ///// Write the option 2 inside double quotes
-                d: ".R", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
-        },
-                         
-                         
-                         
+    {
+      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      answers: {
+        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
+        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
+        c: "<img src='images/1c.PNG'>",      },
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },
+
+
+        
     ];
 
 
