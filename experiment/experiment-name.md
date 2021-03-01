@@ -1,1 +1,1 @@
-Writing and Reading Sequence Data in R
+## Writing and Reading Sequence Data in R
