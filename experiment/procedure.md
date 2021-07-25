@@ -49,6 +49,7 @@ R has some standard packages installed, moreover additional R packages such as `
 
 &nbsp;
 
+
 **Running R in personal computer**
  
 
