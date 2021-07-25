@@ -1,4 +1,33 @@
 
+**Procedure to Work Simulator**
+ 
+
+* 1.	Click on choose file button. Upload sequence of user’s interest in sequencefile.fasta format.
+
+* 2.	User can also download default sample file provided in the user interface and load the sample file in .fasta format.
+
+<center><img src="images/1.png" title="" /></center>
+
+* 3.	Click on Run button for executing simulation. 
+<center><img src="images/2.png" title="" /></center>
+
+* 4.	The nucleotide sequence of mRNA for relaxin is given as output.
+
+* 5.	User can choose .fasta file of varying proteins and nucleotides and can read the sequence in R platform.
+
+
+
+
+**Description:** 
+
+The common functions, `read.csv` and `write.csv`. are using in R programing for reading and writing coma separated files. Here, we are also using these functions for reading and writing our sequence files. This is not a systematic way of accessing sequence file like FASTA and genbank, in R programing. Using the read.csv function, user can read the sequence data in a file and assign to a variable named `dnaseq`. With the function write.csv, user can write a sequence data into a sequence file.s
+
+
+
+
+**DIY**
+
+
 
 **Installing R on Personal computers**
  
@@ -109,24 +138,3 @@ to quit from R interface.
  
 
  
-
-**Procedure to Work Simulator**
- 
-
-* A default.CSV/FASTA file is available on the R platform.
-
-* User can choose their required sequence and can load the sequence.fasta file/sequence.csv file into the platform
-
-* Follow the code in the command window:
-  
-              dnaseq <- read.csv("sequence.fasta")
-                       dnaseq
-            write.csv(dnaseq,"outputseq.fasta")
-
-
-Click Execute Button for output.  
- 
-
-
-**Description:** 
-The common functions, `read.csv` and `write.csv`. are using in R programing for reading and writing coma separated files. Here, we are also using these functions for reading and writing our sequence files. This is not a systematic way of accessing sequence file like FASTA and genbank, in R programing. Using the read.csv function, user can read the sequence data in a file and assign to a variable named `dnaseq`. With the function write.csv, user can write a sequence data into a sequence file.s
