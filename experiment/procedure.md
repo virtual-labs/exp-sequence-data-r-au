@@ -15,15 +15,14 @@
 
 * 5.	User can choose .fasta file of varying proteins and nucleotides and can read the sequence in R platform.
 
-
-
+&ensp;
 
 **Description:** 
 
 The common functions, `read.csv` and `write.csv`. are using in R programing for reading and writing coma separated files. Here, we are also using these functions for reading and writing our sequence files. This is not a systematic way of accessing sequence file like FASTA and genbank, in R programing. Using the read.csv function, user can read the sequence data in a file and assign to a variable named `dnaseq`. With the function write.csv, user can write a sequence data into a sequence file.s
 
 
-
+&ensp;
 
 **DIY**
 
@@ -47,7 +46,7 @@ R has some standard packages installed, moreover additional R packages such as `
  `Install package(s)` needed by the user from the `Packages` menu at the top of the R console. Bioconductor packages, additional R packages for bioinformatics, can be installed from http://bioconductor.org/biocLite.R
  
 
-&nbsp;
+&ensp;
 
 
 **Running R in personal computer**
